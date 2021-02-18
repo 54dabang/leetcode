@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dd93a1d7-a368-4bde-801b-89452a79661c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Median_of_Two_Sorted_Arrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ipd-anime/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../ipd-anime/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ipd-anime/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ipd-anime/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ipd-anime/src/main/java/com/iqiyi/mams/anime/aop/ApiAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ipd-anime/src/main/java/com/iqiyi/mams/anime/aop/ApiAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ipd-anime/src/main/java/com/iqiyi/mams/anime/config/AnimeConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ipd-anime/src/main/java/com/iqiyi/mams/anime/config/AnimeConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ipd-anime/src/main/java/com/iqiyi/mams/anime/config/AnimeInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ipd-anime/src/main/java/com/iqiyi/mams/anime/config/AnimeInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ipd-anime/src/main/java/com/iqiyi/mams/anime/config/ResourceServerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ipd-anime/src/main/java/com/iqiyi/mams/anime/config/ResourceServerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ipd-anime/src/main/java/com/iqiyi/mams/anime/config/health/MyEurekaHealthIndicator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ipd-anime/src/main/java/com/iqiyi/mams/anime/config/health/MyEurekaHealthIndicator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ipd-anime/src/main/java/com/iqiyi/mams/anime/controller/SearchIndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ipd-anime/src/main/java/com/iqiyi/mams/anime/controller/SearchIndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ipd-anime/src/main/java/com/iqiyi/mams/anime/domain/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ipd-anime/src/main/java/com/iqiyi/mams/anime/domain/BaseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ipd-anime/src/main/java/com/iqiyi/mams/anime/dto/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ipd-anime/src/main/java/com/iqiyi/mams/anime/dto/UserDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ipd-anime/src/main/java/com/iqiyi/mams/anime/service/HttpRequestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ipd-anime/src/main/java/com/iqiyi/mams/anime/service/HttpRequestService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ipd-anime/src/main/java/com/iqiyi/mams/anime/service/impl/HttpRequestServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ipd-anime/src/main/java/com/iqiyi/mams/anime/service/impl/HttpRequestServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ipd-anime/src/main/java/com/iqiyi/mams/anime/utils/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ipd-anime/src/main/java/com/iqiyi/mams/anime/utils/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ipd-anime/src/main/java/com/iqiyi/mams/anime/utils/DateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ipd-anime/src/main/java/com/iqiyi/mams/anime/utils/DateUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ipd-anime/src/main/java/com/iqiyi/mams/anime/utils/HttpUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ipd-anime/src/main/java/com/iqiyi/mams/anime/utils/HttpUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ipd-anime/src/main/java/com/iqiyi/mams/anime/utils/MapUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ipd-anime/src/main/java/com/iqiyi/mams/anime/utils/MapUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ipd-anime/src/main/java/com/iqiyi/mams/anime/utils/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ipd-anime/src/main/java/com/iqiyi/mams/anime/utils/Page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ipd-anime/src/main/java/com/iqiyi/mams/anime/utils/SignUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ipd-anime/src/main/java/com/iqiyi/mams/anime/utils/SignUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ipd-anime/src/main/java/com/iqiyi/mams/anime/utils/StringUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ipd-anime/src/main/java/com/iqiyi/mams/anime/utils/StringUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ipd-anime/src/main/resources/config/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../ipd-anime/src/main/resources/config/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ipd-anime/src/main/resources/config/application-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../ipd-anime/src/main/resources/config/application-prod.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ipd-anime/src/main/resources/config/application-trunk.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../ipd-anime/src/main/resources/config/application-trunk.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ipd-anime/src/main/resources/config/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../ipd-anime/src/main/resources/config/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ipd-anime/src/main/resources/config/message/message-dev.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ipd-anime/src/main/resources/config/message/message-dev.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ipd-anime/src/main/resources/config/message/message-prod.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ipd-anime/src/main/resources/config/message/message-prod.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ipd-anime/src/main/resources/config/message/message-trunk.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ipd-anime/src/main/resources/config/message/message-trunk.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ipd-anime/src/main/resources/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ipd-anime/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ipd-audit-platform" beforeDir="false" afterPath="$PROJECT_DIR$/../ipd-audit-platform" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rover-metrics" beforeDir="false" afterPath="$PROJECT_DIR$/../rover-metrics" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1734418991">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="3" />
+          <entry key="Markdown" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="447" />
+          <entry key="Markdown" value="39" />
+          <entry key="PLAIN_TEXT" value="50" />
+          <entry key="XML" value="6" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Median_of_Two_Sorted_Arrays.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+              <folding>
+                <element signature="e#175#176#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../Redis-Pub-Sub" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../es-remote-debug/elasticsearch-5.1" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../photon" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/FindMedianSortedArrays.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/readme.md" />
+        <option value="$PROJECT_DIR$/src/main/java/004_Median_of_Two_Sorted_Arrays.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/TestMain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Median_of_Two_Sorted_Arrays.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$USER_HOME$/apache-maven-3.3.3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="970" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1613614808259" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="TestMain.testDivide" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestMain" />
+      <option name="METHOD_NAME" value="testDivide" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestMain.testDivide" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dd93a1d7-a368-4bde-801b-89452a79661c" name="Default Changelist" comment="" />
+      <created>1613462980047</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613462980047</updated>
+      <workItem from="1613462982042" duration="499000" />
+      <workItem from="1613463990895" duration="887000" />
+      <workItem from="1613532504772" duration="2199000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TestMain_testDivide - 2021.02.17 at 11h 48m 28s.xml">
+      <configuration name="TestMain.testDivide" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3585000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25579977" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.3291536" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3291536" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3291536" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret selection-end-line="2" selection-end-column="55" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+          <folding>
+            <element signature="e#175#176#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Median_of_Two_Sorted_Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8 (1)</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>leetcode</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8 (1)</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
