@@ -8,6 +8,8 @@ import java.util.Map;
  * @create: 2021/02/20 09:21
  * 第146题：https://leetcode-cn.com/problems/lru-cache/
  * @description:实现最近、最少使用的缓存机制
+ * 一旦看到键值对，就应该先想到hashMap，使用双向链表的原因是能够快速找到尾部和头部元素，相比起顺序链表来说提升了查询效率
+ * 每当查询、写入新的元素的时候，就将元素添加到头部。在添加之前需要先判断是否要超出容量，如果添加后已经超出容量，则需要移除尾部元素。
  */
 public class LRUCache {
     private int capacity;
