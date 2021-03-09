@@ -4,7 +4,8 @@
  * @description: 记得加入边界判空条件
  * 主要思想:定义三个变量 pre,head,headNext
  * head其实是指向了当前的节点，headNext指向了后置节点，pre指向的是head的前置节点
- * （1）head每次向后移动之前，需要将head的next节点指向pre,同时将head后移。每次挂载两个节点的关系即可将整个链表串起来。
+ * （1）head每次向后移动之前，需要将head的next节点指向pre,同时将head后移,此时两节点的前后关系就已经挂载起来，不需要再考虑pre.next如何指向。
+ *   每次挂载两个节点的关系即可将整个链表串起来。
  * （2）边界情况，pre是最开始的头结点时，需要将pre.next指向null
  * 当headNext执指向了null时，说明已经遍历至尾部节点返回即可。
  * 第206题 反转链表
